@@ -1,9 +1,9 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "admin2",
+  name: "admin",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩", 
+  credits: "𝗗𝗵𝗮𝗿𝗺𝗲𝗻𝗱𝗿𝗮 𝗞𝗮𝗿𝘁𝗶𝗸", 
   description: "hihihihi",
   commandCategory: "no prefix",
   usages: "admin",
@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
-  if (event.body.indexOf("ADMIN")==0 || event.body.indexOf("Admin")==0 || event.body.indexOf("/Admin")==0 || event.body.indexOf("#admin")==0) {
+  if (event.body.indexOf("ADMIN")==0 || event.body.indexOf("Admin")==0 || event.body.indexOf("/Admin")==0 || event.body.indexOf("admin")==0) {
     var msg = {
         body: "🫅 𝐎𝐖𝐍𝐄𝐑 𝐏𝐑𝐎𝐅𝐈𝐋𝐄 🫅",
         attachment: 
