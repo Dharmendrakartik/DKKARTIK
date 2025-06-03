@@ -3,7 +3,7 @@ module.exports.config = {
     name: "job",
     version: "1.0.2",
     hasPermssion: 0,
-    credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭", 
+    credits: "𝗗𝗵𝗮𝗿𝗺𝗲𝗻𝗱𝗿𝗮 𝗞𝗮𝗿𝘁𝗶𝗸", 
     description: "",
     commandCategory: "Economy",
     cooldowns: 5,
